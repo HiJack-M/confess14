@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <script type="text/javascript">
+      document.documentElement.style.fontSize = document.documentElement.clientWidth / 1080 * 100 + 'px'
+    </script>
+    <script>
+      if (navigator.userAgent.indexOf('MicroMessenger') === -1) {
+        alert('请在微信客户端打开')
+        let opened = window.open('about:blank', '_self')
+        opened.opener = null
+        opened.close()
+      }
+    </script>
+    <!--微信的JS-SDK配置初始化-->
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/113927/47023/5a810f9bf629d90e546d699d.css' rel='stylesheet' type='text/css' />
+    <title>2.14我想对你说...</title>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

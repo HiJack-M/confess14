@@ -1,0 +1,18 @@
+html{
+  width:100%;
+  font-family: Hiragino Sans GB,Helvetica,Arial,STHeiti,WenQuanYi Micro Hei,sans-serif;
+}
+body {
+  font-size: 14px;
+  margin: 0;
+  display:block;
+}
+.root-view {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
